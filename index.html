@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vivero Agroforestal LomaGrande - Principal</title>
+</head>
+<body>
+  <table width="100%">
+    <tr>
+      <td bgcolor="#fffdf9" align="center">
+        <table>
+          <tr>
+            <td align="center">
+              <table width="50%" cellspacing="5">
+                <tr>
+                  <td align="center">
+                    <h1 style="font-family:Verdana,sans-serif;font-size:36px;color:#08340a;text-shadow:2px 2px 4px #666;">Vivero LomaGrande</h1>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center">
+              <table>
+                <tr>
+                  <td bgcolor="#4caf50" border="2" bordercolor="#2e7d32" width="120"><a href="principal.html" style="font-family:'Times New Roman',serif;font-size:20px;color:#ffffff;font-weight:bold;text-shadow:2px 2px 4px #333;">Principal</a></td>
+                  <td bgcolor="#4caf50" border="2" bordercolor="#2e7d32" width="120"><a href="nosotros.html" style="font-family:'Times New Roman',serif;font-size:20px;color:#ffffff;font-weight:bold;text-shadow:2px 2px 4px #333;">Nosotros</a></td>
+                  <td bgcolor="#4caf50" border="2" bordercolor="#2e7d32" width="120"><a href="proyecto.html" style="font-family:'Times New Roman',serif;font-size:20px;color:#ffffff;font-weight:bold;text-shadow:2px 2px 4px #333;">Proyecto</a></td>
+                  <td bgcolor="#4caf50" border="2" bordercolor="#2e7d32" width="120"><a href="galeria.html" style="font-family:'Times New Roman',serif;font-size:20px;color:#ffffff;font-weight:bold;text-shadow:2px 2px 4px #333;">Galería</a></td>
+                  <td bgcolor="#4caf50" border="2" bordercolor="#2e7d32" width="120"><a href="contacto.html" style="font-family:'Times New Roman',serif;font-size:20px;color:#ffffff;font-weight:bold;text-shadow:2px 2px 4px #333;">Contacto</a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table width="90%">
+          <tr>
+            <td align="center">
+              <table width="50%" cellspacing="5">
+                <tr>
+                  <td align="center">
+                    <p style="font-family:'Times New Roman',serif;font-size:24px;color:#1b5e20;text-shadow:1px 1px 2px #666;">Donde la naturaleza florece</p>
+                    <p style="font-family:'Times New Roman',serif;font-size:16px;color:#4caf50;">Cultivamos un futuro verde para ti y el planeta</p>
+                  </td>
+                </tr>
+              </table>
+              <table width="50%" cellspacing="5">
+                <tr>
+                  <td align="center">
+                    <h2 style="font-family:Verdana,sans-serif;font-size:28px;color:#2e7d32;text-shadow:2px 2px 4px #666;">Nuestros Árboles</h2>
+                    <img id="mainSlider" src="Img/roble.jpg" alt="Árbol" style="width:350px;height:250px;border-radius:10px;">
+                    <script>
+                      const mainImages = ["Img/roble.jpg", "Img/cedro.jpg", "Img/pino.jpg", "Img/caoba.jpg", "Img/ceiba.jpg", "Img/Abedul.webp"];
+                      let mainIndex = 0;
+                      setInterval(() => {
+                        document.getElementById("mainSlider").src = mainImages[mainIndex];
+                        mainIndex = (mainIndex + 1) % mainImages.length;
+                      }, 3000);
+                    </script>
+                  </td>
+                </tr>
+              </table>
+              <table width="50%" cellspacing="5">
+                <tr>
+                  <td align="center">
+                    <h2 style="font-family:Verdana,sans-serif;font-size:28px;color:#2e7d32;text-shadow:2px 2px 4px #666;">Nuestro Equipo</h2>
+                  </td>
+                </tr>
+              </table>
+              <table cellspacing="10">
+                <tr>
+                  <td>
+                    <img src="Img/WhatsApp Image 2025-06-06 at 12.08.18 PM.jpeg" alt="Juan Reyes" style="width:150px;height:150px;border-radius:10px;">
+                    <p style="font-family:'Times New Roman',serif;font-size:18px;color:#1b5e20;font-weight:bold;">Juan Reyes</p>
+                    <p style="font-family:'Times New Roman',serif;font-size:14px;color:#4caf50;">CEO</p>
+                  </td>
+                  <td>
+                    <img src="Img/Martin CEO.jpg" alt="Martín Lora" style="width:150px;height:150px;border-radius:10px;">
+                    <p style="font-family:'Times New Roman',serif;font-size:18px;color:#1b5e20;font-weight:bold;">Martín Lora</p>
+                    <p style="font-family:'Times New Roman',serif;font-size:14px;color:#4caf50;">Director Técnico</p>
+                  </td>
+                  <td>
+                    <img src="Img/Jhayco CEO.png" alt="Jesus Manuel" style="width:150px;height:150px;border-radius:10px;">
+                    <p style="font-family:'Times New Roman',serif;font-size:18px;color:#1b5e20;font-weight:bold;">Jesus Manuel</p>
+                    <p style="font-family:'Times New Roman',serif;font-size:14px;color:#4caf50;">Diseñador</p>
+                  </td>
+                  <td>
+                    <img src="Img/ab6761610000e5eb47405c81796be1140ea02a48.jpg" alt="Santiago Matías" style="width:150px;height:150px;border-radius:10px;">
+                    <p style="font-family:'Times New Roman',serif;font-size:18px;color:#1b5e20;font-weight:bold;">Santiago Matías</p>
+                    <p style="font-family:'Times New Roman',serif;font-size:14px;color:#4caf50;">Marketing</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <table width="100%">
+          <tr>
+            <td align="center">
+              <p style="font-family:'Times New Roman',serif;font-size:16px;color:#1b5e20;">© 2025 Hecho por Esfera Construcción. Hecho con <a href="https://lomagrande.com" style="color:#1b5e20;">Lomagrande.com</a></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
